@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.hero {
+    background: url('./images/hero.png') no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* Card styling */
+.card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #222;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+.carousel-item img {
+    height: 500px; 
+
+    width: 100%; 
+}
+
+.artist-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.artist-card {
+  border: none;
+  background-color: transparent;
+}
+
+.show-all-btn {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.show-all-btn:hover {
+  text-decoration: underline;
+}
